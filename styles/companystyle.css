@@ -1,0 +1,315 @@
+html body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	
+	max-height: 2471px;
+	font-family: "Century Gothic";
+}
+.header{
+	display: flex;
+	height: 140px;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btns{
+display: flex;
+width: 80%;
+justify-content: flex-end;
+}
+.logopos{
+display: flex;
+width: 28%;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+	margin-left: 100px;
+	width: 210px;
+	height: 180px;
+}
+
+
+}
+header{
+	height: 153px;
+}
+.social-icon-viber{
+	background-image: url(icons/viber.png);
+} 
+nav{
+	float: right;
+}
+ul {
+	line-height: 140px;
+	list-style: none; 
+  margin: 0;
+  padding-left: 0;
+
+}
+li {
+	margin-right: 100px;
+	padding: 5px ;
+	display: inline-block; 
+}
+
+a {
+	text-decoration: none; 
+	color: black;
+}
+a:hover{
+	color: #FF3F99;
+}
+}
+.footer{
+	position: absolute;
+	width: 1440px;
+	height: 237px;
+	left: 0px;
+	top: 2138px;
+	background: #A46375;
+}
+.pf{
+
+	color: white;
+	font-size: 24px;
+	text-align: right;
+	padding: 30px;
+	padding-right: 50px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 80%;
+	margin-left: 200px;
+	margin-right: 200px;
+	box-shadow: 4px 8px 32px 0px #00000040;
+	box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 360px;
+	margin-bottom: 50px;
+	box-shadow: 0px 9px 4px 0px #00000040;
+	background: #89F0D270;
+}
+p{
+	padding-right: 80px;
+	padding-left: 90px;
+	
+}
+
+.info{
+	margin-top:50px;
+	padding: 25px;
+}
+.box1{
+	width: 50px;
+	height: 50px;
+	background: #BB80BA87;
+	float: left;
+	margin-left: -26px;
+}
+.box2{
+	width: 50px;
+	height: 50px;
+	background: #CA5A8082;
+	float: left;
+	margin-left: -26px;
+}
+.box3{
+	width: 50px;
+	height: 50px;
+	background: #D59D737D;
+	float: left;
+	margin-left: -26px;
+
+}
+.box4{
+	width: 50px;
+	height: 50px;
+	background: #CBF8EB;
+	float: left;
+	margin-left: -26px;
+}
+.box5{
+	width: 50px;
+	height: 50px;
+	background: #E2C2F8;
+	float: left;
+	margin-left: -26px;
+}
+.footer{
+	height: 237px;
+	margin-top: 100px;
+	background: #A46375;
+}
+.icon-viber1{
+	left: 46px;
+	top: 132px;
+	margin-left: 48px;
+	margin-top: 82px;
+	transition: 1s;
+}
+.icon-viber1:hover{
+	transform: scale(1.2); 
+}
+
+.icon-telegram1{
+	margin-left: 46px;
+  	margin-top: 10px;
+  	transition: 1s;
+}
+.icon-telegram1:hover{
+	transform: scale(1.2); 
+}
+.icon-watsapp1{
+	left: 46px;
+	top: 200px;
+	margin-left: 40px;
+	margin-top: 150px;
+	transition: 1s;
+}
+.icon-watsapp1:hover{
+	transform: scale(1.2);
+	} 
+.footer p{
+
+	color: white;
+	font-size: 18px;
+	text-align: right;
+	padding: 30px;
+	padding-right: 50px;
+}
+
+.purp{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 365px;
+	margin-top: -286px;
+	background: rgba(206, 151, 243, 0.55);
+}
+
+.yell{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 299px;
+	margin-left: -20px;
+	margin-top: -220px;
+	background: rgba(254, 205, 113, 0.55);
+}
+
+.rose{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 224px;
+	margin-left: -20px;
+	margin-top: -145px;
+	background: rgba(233, 83, 137, 0.55);
+}
+
+
+
+@media screen and (max-width:480px ){
+	.header {
+    height: 150px;
+    width: 480px;
+    background: white;
+	}
+
+	.logo {
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
+}
+	
+	ul {
+    float: right;
+    line-height: 150px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+	}
+	nav{
+		font-size: 12px;
+	}
+
+	li {
+    margin-right: 10px;
+    padding: 5px;
+    display: inline-block;
+	}
+	.container{
+		display: flex;
+		width: 480px;
+		margin-left: 0px;
+	}
+	.h1{
+		display: flex;
+	}
+	.h1 h1{
+		font-size: 16px;
+	}
+	p{
+		font-size: 16px;
+	}
+	
+
+	
+	.footer {
+    height: 237px;
+    margin-top: 36px;
+    background: #A46375;
+    width: 480px;
+	}
+
+	.footer p{
+		font-size: 16px;
+	}
+
+	.purp{
+		display: none;
+	}
+	.yell{
+		display: none;
+	}
+	.rose{
+		display: none;
+	}
+	.viber{
+	display: none;
+}
+
+
+
+.teleg{
+	display: none;
+}
+.watsapp {
+	display: none;
+}
+.div2{
+	display: none;
+}
+.btn{
+	display: none;
+}
+
+
+
+}
+
+

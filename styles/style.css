@@ -1,0 +1,543 @@
+html body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	max-height:2471px;
+	font-family: "Century Gothic";
+}
+
+
+.header{
+	display: flex;
+	height: 140px;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo{
+	margin-left: 100px;
+	width: 210px;
+	height: 180px;
+}
+
+.btns{
+display: flex;
+width: 80%;
+justify-content: flex-end;
+}
+.logopos{
+display: flex;
+width: 28%;
+justify-content: center;
+align-items: center;
+}
+
+.div1 {
+	background: url(image/главная.png);
+	width: 100%;
+	height: 870px;
+}
+nav{
+	float: right;
+}
+ul {
+	line-height: 140px;
+	list-style: none; 
+  margin: 0;
+  padding-left: 0;
+
+}
+li {
+	margin-right: 100px;
+	padding: 5px ;
+	display: inline-block; 
+}
+
+a {
+	text-decoration: none; 
+	color: black;
+}
+a:hover{
+	color: #FF3F99;
+}
+.block1{
+	float: right;
+    height: 160px;
+    width: 930px;
+    background: rgba(137, 240, 210, 0.44);
+    box-shadow: 0px 9px 4px rgb(0 0 0 / 25%);
+}
+
+.divrose{
+	width: 579px;
+	height: 750px;
+	float: right;
+	margin-top: -50px;
+	background: rgba(128, 43, 65, 0.71);
+}
+
+.p1{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+	padding: 75px;
+}
+.p2{
+	text-align: center;
+}
+.tel{
+	margin-left:500px ;
+	font-size: 16px;
+}
+
+.viber{
+	margin-left: 80px;
+	width: 137px;
+	height: 143px;
+	background: rgba(207, 67, 110, 0.51);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 80px;
+  transition: 1s;
+}
+
+.viber:hover {
+    transform: scale(1.2); 
+}
+
+.teleg{
+	width: 160px;
+	height: 160px;
+	margin-left: 180px;
+	margin-top: 90px;
+	background: rgba(207, 67, 110, 0.37);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 80px;
+	transition: 1s; 
+}
+.teleg:hover {
+    transform: scale(1.2); 
+}
+	
+
+.watsapp {
+	margin-left: 80px;
+	width: 160px;
+	height: 160px;
+	background: rgba(207, 67, 110, 0.6);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 80px; 
+	transition: 1s; 
+}
+
+.watsapp:hover {
+    transform: scale(1.2); 
+}
+
+.icon-viber{
+
+	margin-left: 20px;
+	margin-top:20px;
+}
+
+.icon-telegram{
+	margin-left: 30px;
+    margin-top: 34px
+}
+.icon-watsapp{
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.icon-viber{
+	background-image: url(icons/viber.png);
+}
+
+
+.container{
+	display: flex;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+.services{
+	display: flex;
+	justify-content: center;
+}
+
+.services1{
+	width: 450px;
+	height: 360px;
+}
+.services1 p{
+	opacity: 0;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 300px;
+	text-align: center;
+	color: #fff;
+	transition: .5s ease;
+}
+.services1:hover p {
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+.services2{
+	width: 450px;
+	height: 360px;
+}
+.services2 p{
+	opacity: 0;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 300px;
+	text-align: center;
+	color: #fff;
+	transition: .5s ease;
+}
+.services2:hover p {
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.services3{
+	width: 450px;
+	height: 360px;
+}
+.services3 p{
+	opacity: 0;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 300px;
+	text-align: center;
+	color: #fff;
+	transition: .5s ease;
+}
+.services3:hover p {
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 320px;
+	height: 50px;
+	background: #FECE72;
+	border-radius: 60px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn1{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn:hover {
+  box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
+.btn-2{
+	text-align: center;
+	font-size: 22px;
+	padding: 10px;
+	color: white;
+	height: 36px;
+	width: 310px;
+	border-radius: 60px;
+	border: 3px solid #FFFFFF;
+}
+.btn-2:hover{
+	 box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
+
+.divbl2{
+	height: 360px;
+	width: 900px;
+	padding: 10px;
+	background: #CBEEE6;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: drop-shadow(0px 9px 4px rgba(0, 0, 0, 0.25));
+}
+
+.divbl2 figure{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.order{
+	display: flex;
+		width: 30%;
+    flex-direction: column;
+    align-items: center;
+	
+	
+	}
+
+	.warranty{
+	display: flex;
+	width: 30%;
+   	flex-direction: column;
+    align-items: center;
+	
+	}
+
+	.term{
+	display: flex;
+	width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+	
+	.figure{
+	display: flex;
+
+
+	}
+	.block{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+
+	}
+
+.footer{
+	height: 237px;
+	margin-top: 100px;
+	background: #A46375;
+}
+.icon-viber1{
+	left: 46px;
+	top: 132px;
+	margin-left: 48px;
+	margin-top: 82px;
+	transition: 1s;
+}
+.icon-viber1:hover{
+	transform: scale(1.2); 
+}
+
+.icon-telegram1{
+	margin-left: 46px;
+  	margin-top: 10px;
+  	transition: 1s;
+}
+.icon-telegram1:hover{
+	transform: scale(1.2); 
+}
+.icon-watsapp1{
+	left: 46px;
+	top: 200px;
+	margin-left: 40px;
+	margin-top: 150px;
+	transition: 1s;
+}
+.icon-watsapp1:hover{
+	transform: scale(1.2); 
+}
+.footer p{
+
+	color: white;
+	font-size: 18px;
+	text-align: right;
+	padding: 30px;
+	padding-right: 50px;
+}
+
+.purp{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 365px;
+	margin-top: -286px;
+	background: rgba(206, 151, 243, 0.55);
+}
+
+.yell{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 299px;
+	margin-left: -20px;
+	margin-top: -220px;
+	background: rgba(254, 205, 113, 0.55);
+}
+
+.rose{
+	float: left;
+	display: flex;
+	width: 195px;
+	height: 224px;
+	margin-left: -20px;
+	margin-top: -145px;
+	background: rgba(233, 83, 137, 0.55);
+}
+
+@media screen and (max-width: 1280px){
+
+	
+}
+
+
+
+
+@media screen and (max-width:480px ){
+	.header {
+    height: 150px;
+    width: 480px;
+    background: white;
+	}
+
+	.logo {
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
+}
+	
+	ul {
+    float: right;
+    line-height: 150px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+	}
+	nav{
+		font-size: 12px;
+	}
+
+	li {
+    margin-right: 10px;
+    padding: 5px;
+    display: inline-block;
+	}
+
+	.div1 {
+    background: url(image/главная.png);
+    width: 480px;
+    height: 615px;
+	}
+	.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+	.block1 {
+    display: none;
+    float: right;
+    height: 160px;
+    width: 930px;
+    background: rgba(137, 240, 210, 0.44);
+    box-shadow: 0px 9px 4px rgb(0 0 0 / 25%);
+	}
+
+	.divrose {
+    width: 480px;
+    height: 615px;
+    float: right;
+    background: #802B41B5;
+    margin-top: 1px;
+	}
+	.btn-2 {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    height: 19px;
+    width: 247px;
+    border-radius: 60px;
+    border: 3px solid #FFFFFF;
+	}
+
+	.p1{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 29px;
+		color: #FFFFFF;
+		padding: 75px;
+	}
+
+	
+	.divbl2{
+		margin-top: 30px;
+    width: 420px;
+    height: 650px;
+    background: #CBEEE6;
+    border-radius: 10px;
+    filter: drop-shadow(0px 9px 4px rgba(0, 0, 0, 0.25));
+	}
+
+
+.divbl2 figure {
+	font-size: 12px;
+}
+.container {
+	width: 480px;
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+	.services{
+	display: none;
+	justify-content: center;
+	}
+
+	.footer {
+    height: 237px;
+    margin-top: 36px;
+    background: #A46375;
+    width: 480px;
+	}
+
+	.footer p{
+		font-size: 14px;
+	}
+
+	.purp{
+		display: none;
+	}
+	.yell{
+		display: none;
+	}
+	.rose{
+		display: none;
+	}
+	.viber{
+	display: none;
+}
+
+
+
+.teleg{
+	display: none;
+}
+.watsapp {
+	display: none;
+}
+.div2{
+	display: none;
+}
+.btn{
+	display: none;
+}
+
+
+
+}
+
+
